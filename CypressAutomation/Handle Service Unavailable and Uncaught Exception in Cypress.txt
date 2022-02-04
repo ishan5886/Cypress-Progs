@@ -1,0 +1,12 @@
+To handle Service Unavailable Error, please use:
+{failOnStatusCode: false}
+ex: 
+     cy.visit('https://app.hubspot.com/login', {failOnStatusCode: false})
+
+To handle uncaught:exception, you need to write following script in support index.js file:
+
+Cypress.on('uncaught:exception', (err, runnable) = {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  })

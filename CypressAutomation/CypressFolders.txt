@@ -1,0 +1,4 @@
+Fixtures - Used for declaring static constant data
+Integration - Used to write test cases
+Plugins - All plugins and listeners
+Support - For all Custom methods/wrappers/modules/libs

@@ -1,0 +1,24 @@
+{
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "projectId": "261q1i",
+  "integrationFolder": "cypress/integration/APIAutomation",
+  "screenshotsFolder": "cypress/reports/mochareports/assets",
+  "videosFolder": "allure-results",
+  "screenshotOnRunFailiure": true,
+  "retries": 3,
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  },
+  "video": false
+
+  
+  
+}

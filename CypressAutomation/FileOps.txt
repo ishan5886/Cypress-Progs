@@ -1,0 +1,8 @@
+Always keep files in fixtures
+
+npm install --save-dev cypress-file-upload
+
+File upload
+
+cont var1 = "image fixture path";
+cy.get('locator').attachFile(var1);

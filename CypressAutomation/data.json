@@ -1,0 +1,33 @@
+[
+
+    {
+        "name":"ishan1",
+        "salary":"120000",
+        "age":"25"
+    },
+
+    {
+        "name":"ishan2",
+        "salary":"130000",
+        "age":"35"
+    },
+
+    {
+        "name":"ishan3",
+        "salary":"140000",
+        "age":"45"
+    },
+
+    {
+        "name":"kamal kishore kantar",
+        "salary":"150000",
+        "age":"55"
+    },
+
+    {
+        "name":"sukhi",
+        "salary":"126000",
+        "age":"15"
+    }
+
+]

@@ -1,0 +1,5 @@
+In package.json file... in tests write "test": "./node_modules/.bin/cypress run " (or the command you need to run)
+Go to Terminal -> root directory :- type npm run test -> It will run command under test in package.json
+Even create custom command in package.json for e.g. "runtests": "npm run test" and then in the terminal write npm run runtests
+
+

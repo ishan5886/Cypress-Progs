@@ -1,0 +1,18 @@
+Navigate to root directory
+If run all tests - node_modules\.bin\cypress run
+If run specific test - 
+node_modules/.bin/cypress run --spec "cypress\integration\examples\FirstTest.spec.js"
+
+*******Dashboard Repository*************
+
+Launch Cypress runner
+On Cypress Runner click on Runs tab
+Click on Setup Project to record -> Will setup project in Github Repository and give a Project ID and key
+
+
+ 
+cypress run --record --key 2b5fc5f9-9e75-4467-9ae0-07af3b35da8c
+
+
+/Users/ishandhaliwal/Documents/CypressLearning/CypressAutomation/node_modules
+

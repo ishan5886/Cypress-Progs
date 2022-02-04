@@ -1,0 +1,8 @@
+cy.get(selector)  - Get one or more DOM Elements by selector
+
+Locators:-
+
+ > Class - .classname for example .ico-login
+ > ID -  #idlocatorvalue for example #searchbox
+ > Other attiribute apart from Class for e.g. type -- [type=submit]
+ > Multiple attributes -> .add-to-cart-button[value='Add to cart']

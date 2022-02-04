@@ -1,0 +1,28 @@
+****** Open Test Runner - node_modules/.bin/cypress open
+
+***** To Run All Tests under examples directory
+
+        node_modules/.bin/cypress run   // runs in headless mode
+        node_modules/.bin/cypress run --headed  //runs in headed mode
+
+
+        
+****** To run a Single Test under examples directory
+
+        node_modules/.bin/cypress run --spec "cypress/integration/examples/FirstTest.js"
+
+
+***** To Run All Tests under examples directory using specific browser(for e.g. Chrome)
+
+        node_modules/.bin/cypress run --browser chrome
+
+
+**** Restart Jenkins - brew services restart jenkins-lts
+
+
+Jenkins Url :- http://localhost:8080/
+
+Username :- ishan5886
+Password : ishan12345
+
+eval $(/opt/homebrew/bin/brew shellenv)
